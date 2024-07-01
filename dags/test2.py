@@ -10,7 +10,7 @@ default_args = {
 }
 
 # Instantiate your DAG
-dag = DAG ('my_first_dag', default_args=default_args, schedule_interval=None)
+dag = DAG ('my_second_dag', default_args=default_args, schedule_interval=None)
 
 # Define tasks
 def task1():
